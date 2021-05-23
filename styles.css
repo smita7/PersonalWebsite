@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.navbar {
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 10;
+  z-index: 999;
+}
+
+a.nav-link {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+a.nav-link:link {
+  font-size: 40px;
+  color: pink;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+a.nav-link:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+html {
+  background: url(images/code.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

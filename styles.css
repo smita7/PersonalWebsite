@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background-color: rgba(0, 0, 0, 0.85);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,18 +19,20 @@
 
 a.nav-link {
   padding: 0px 10px;
+  text-shadow: #eeee00 0 0 10px;
+
   word-wrap: normal;
   display: inline-block;
 }
 
 a.nav-link:link {
-  font-size: 40px;
+  font-size: 50px;
   color: pink;
   text-decoration: none;
 }
 
 a.nav-link:hover {
-  font-size: 50px;
+  font-size: 60px;
   color: white;
   text-decoration: none;
 }
